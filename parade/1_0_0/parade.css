@@ -113,6 +113,9 @@
 .prd-container .prd-close:hover {
 	background-color: rgba(0,0,0,.25);
 }
+.prd-container .prd-inner .prd-close:hover {
+	background-color: rgba(0,0,0,.4);
+}
 .prd-container .prd-close:active {
 	margin-top: 1px;
 }
@@ -175,6 +178,7 @@
 }
 .prd-container .prd-image .prd-inner img {
 	max-width: 100%;
+	max-height: calc(100vh - 80px);
 	background: #999;
 }
 .prd-container .prd-image .prd-image-title {
