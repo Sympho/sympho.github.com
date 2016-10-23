@@ -111,10 +111,10 @@
 	position: absolute;
 }
 .prd-container .prd-close:hover {
-	background-color: rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.4);
 }
 .prd-container .prd-inner .prd-close:hover {
-	background-color: rgba(0,0,0,.4);
+	background-color: rgba(0,0,0,.25);
 }
 .prd-container .prd-close:active {
 	margin-top: 1px;
